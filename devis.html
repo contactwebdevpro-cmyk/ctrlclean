@@ -2,102 +2,104 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Demande de devis - Ctrl+Clean</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Demande de devis PC à distance | Ctrl+Clean</title>
+  <meta name="description" content="Demandez votre devis pour nettoyage et optimisation PC à distance. Remplissez le formulaire et obtenez une réponse rapide pour améliorer les performances de votre PC.">
+  <meta name="keywords" content="devis PC, demande devis nettoyage, optimisation PC, service à distance">
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Demande de devis - Ctrl+Clean">
+  <meta property="og:description" content="Obtenez rapidement un devis pour nettoyer et optimiser votre PC à distance.">
+  <meta property="og:image" content="https://ctrlclean.vercel.app/images/pc.png">
+  <meta property="og:type" content="website">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Demande de devis Ctrl+Clean",
+    "url": "https://ctrlclean.vercel.app/devis.html"
+  }
+  </script>
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header>
-    <nav>
-      <a href="#"><img src="images/logo.png" alt="Logo Ctrl+Clean"></a>
+<header>
+  <nav>
+    <a href="index.html"><img src="images/logo.png" alt="Logo CtrlClean" /></a>
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="devis.html">Demander un devis</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="cta-final">
+    <h1>Demandez votre devis pour PC à distance</h1>
+    <p>Remplissez le formulaire ci-dessous, je vous réponds rapidement.</p>
+  </section>
+
+  <section id="formulaire-devis">
+    <form id="devisForm" action="https://formspree.io/f/xwvwazdg" method="POST">
+      <div class="input-group">
+        <label>Nom</label>
+        <input type="text" name="nom" required>
+      </div>
+
+      <div class="input-group">
+        <label>Prénom</label>
+        <input type="text" name="prenom" required>
+      </div>
+
+      <div class="input-group">
+        <label>Email</label>
+        <input type="email" name="email" required>
+      </div>
+
+      <div class="input-group">
+        <label>Téléphone</label>
+        <input type="tel" name="tel">
+      </div>
+
+      <div class="input-group">
+        <label>Message</label>
+        <textarea name="message" rows="5" required></textarea>
+      </div>
+
+      <input type="text" name="_gotcha" style="display:none">
+      <input type="hidden" name="_subject" value="Nouvelle demande de devis Ctrl+Clean">
+      <input type="hidden" name="_next" value="merci.html">
+
+      <button type="submit">Envoyer la demande</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <div id="footer-content">
+    <div>
+      <a href="index.html"><img src="images/footer-logo.png" alt="Logo CtrlClean footer" /></a>
+      <p>Nettoyage & optimisation PC à distance.</p>
+    </div>
+    <div>
+      <h4>Liens utiles</h4>
       <ul>
         <li><a href="index.html">Accueil</a></li>
         <li><a href="services.html">Services</a></li>
-        <li><a id="Demander-devis-nav" href="devis.html">Demander Devis</a></li>
       </ul>
-    </nav>
-  </header>
-
-  <!-- MAIN -->
-  <main>
-
-    <!-- SECTION TITRE -->
-    <section id="cta-final">
-      <h2>Demandez votre devis</h2>
-      <p>Remplissez le formulaire ci-dessous, je vous réponds rapidement.</p>
-    </section>
-
-    <!-- FORMULAIRE -->
-    <section id="formulaire-devis">
-      <form id="devisForm" action="https://formspree.io/f/xwvwazdg" method="POST">
-
-        <div class="input-group">
-          <label>Nom</label>
-          <input type="text" name="nom" required>
-        </div>
-
-        <div class="input-group">
-          <label>Prénom</label>
-          <input type="text" name="prenom" required>
-        </div>
-
-        <div class="input-group">
-          <label>Email</label>
-          <input type="email" name="email" required>
-        </div>
-
-        <div class="input-group">
-          <label>Téléphone</label>
-          <input type="tel" name="tel">
-        </div>
-
-        <div class="input-group">
-          <label>Message</label>
-          <textarea name="message" rows="5" required></textarea>
-        </div>
-
-        <!-- Anti-spam invisible -->
-        <input type="text" name="_gotcha" style="display:none">
-
-        <!-- Sujet du mail -->
-        <input type="hidden" name="_subject" value="Nouvelle demande de devis Ctrl+Clean">
-
-        <!-- Redirection après envoi -->
-        <input type="hidden" name="_next" value="merci.html">
-
-        <button type="submit">Envoyer la demande</button>
-
-      </form>
-    </section>
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer>
-    <div id="footer-content">
-      <div>
-        <a href="#"><img src="images/footer-logo.png" alt="Logo footer"></a>
-        <p>Nettoyage & optimisation PC à distance.</p>
-      </div>
-
-      <div>
-        <h4>Liens utiles</h4>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="services.html">Services</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h4>Contact</h4>
-        <p>Email : contact@ctrlclean.fr</p>
-      </div>
     </div>
-
-    <p id="copyright">© 2026 Ctrl+Clean - Tous droits réservés</p>
-  </footer>
+    <div>
+      <h4>Contact</h4>
+      <p>Email : contact@ctrlclean.fr</p>
+    </div>
+  </div>
+  <p>© 2026 Ctrl+Clean - Tous droits réservés</p>
+</footer>
 
 </body>
 </html>
