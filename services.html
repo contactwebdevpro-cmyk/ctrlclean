@@ -1,117 +1,110 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ctrl+Clean</title>
-  </head>
-  <body>
-   <header>
-      <nav>
-        <a href="#"><img src="images/logo.png" alt="" /></a>
-        <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a id="Demander-devis-nav" href="devis.html">Demander Devis</a></li>
-        </ul>
-      </nav>
-    </header>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services de nettoyage PC & optimisation Windows | Ctrl+Clean</title>
+  <meta name="description" content="Découvrez nos services de nettoyage PC, optimisation Windows et suppression de virus. Améliorez les performances de votre ordinateur rapidement et à distance.">
+  <meta name="keywords" content="services PC, nettoyage ordinateur, optimisation Windows, suppression virus, accélérer PC">
+  <link rel="stylesheet" href="style.css" />
 
-    <main>
-      <div id="flex-menu">
-        <div id="texte-menu">
-          <h1>
-            Nos services <br> de nettoyage digitale
-          </h1>
-          <div id="p-s" >
-          <p>Optimisez votre PC et boostez ses performances !</p>
-</div>
-          
+  <!-- Open Graph -->
+  <meta property="og:title" content="Services de nettoyage PC - Ctrl+Clean">
+  <meta property="og:description" content="Optimisez votre PC et boostez ses performances grâce à nos services à distance.">
+  <meta property="og:image" content="https://ctrlclean.vercel.app/images/service-image.png">
+  <meta property="og:type" content="website">
 
-          <div id="bouttons-flex" >
-          <div id="bouttons">
-            <a href="devis.html">Demandez un devis <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-  <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
-</svg></a>
-            </div>
-           
-          </div>
-        </div>
-        <div id="image-pc">
-          <img src="images/service-image.png" alt="" />
-        </div>
-      </div>
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Services de nettoyage et optimisation PC",
+    "provider": {
+      "@type": "Organization",
+      "name": "CtrlClean"
+    },
+    "areaServed": "France",
+    "description": "Nettoyage complet, optimisation, suppression de virus et récupération de données à distance."
+  }
+  </script>
+</head>
+<body>
 
-
-   <div id="cartes-s">
-
-  <div class="carte">
-    <h2>✔ Nettoyage complet</h2>
+<header>
+  <nav>
+    <a href="index.html"><img src="images/logo.png" alt="Logo CtrlClean" /></a>
     <ul>
-      <li>Suppression fichiers inutiles</li>
-      <li>Optimisation Windows</li>
-      <li>Gain de performance</li>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="devis.html">Demander un devis</a></li>
     </ul>
-  </div>
+  </nav>
+</header>
 
-  <div class="carte">
-    <h2>✔ Sécurité & antivirus</h2>
-    <ul>
-      <li>Scan & suppression virus</li>
-      <li>Suppression malware</li>
-      <li>Protection renforcée</li>
-    </ul>
-  </div>
+<main>
+  <section id="hero">
+    <h1>Nos services de nettoyage et optimisation PC</h1>
+    <p>Optimisez votre PC et boostez ses performances rapidement et à distance !</p>
+    <a href="devis.html" class="btn-principal">Demandez un devis</a>
+  </section>
 
-  <div class="carte">
-    <h2>✔ Boost performance</h2>
-    <ul>
-      <li>Startup optimisé</li>
-      <li>RAM libérée</li>
-      <li>PC plus rapide</li>
-    </ul>
-  </div>
+  <section id="services-list">
+    <div class="carte">
+      <h2>✔ Nettoyage complet</h2>
+      <ul>
+        <li>Suppression fichiers inutiles</li>
+        <li>Optimisation Windows</li>
+        <li>Gain de performance</li>
+      </ul>
+    </div>
+    <div class="carte">
+      <h2>✔ Sécurité & antivirus</h2>
+      <ul>
+        <li>Scan et suppression de virus</li>
+        <li>Suppression malware</li>
+        <li>Protection renforcée</li>
+      </ul>
+    </div>
+    <div class="carte">
+      <h2>✔ Boost performance</h2>
+      <ul>
+        <li>Démarrage optimisé</li>
+        <li>Libération de RAM</li>
+        <li>PC plus rapide</li>
+      </ul>
+    </div>
+    <div class="carte">
+      <h2>✔ Sauvegarde & récupération</h2>
+      <ul>
+        <li>Backup de fichiers</li>
+        <li>Récupération de données</li>
+        <li>Cloud sécurisé</li>
+      </ul>
+    </div>
+  </section>
+</main>
 
-  <div class="carte">
-    <h2>✔ Sauvegarde & récupération</h2>
-    <ul>
-      <li>Backup fichiers</li>
-      <li>Récupération données</li>
-      <li>Cloud sécurisé</li>
-    </ul>
-  </div>
-
-</div>
-
-
-
-
-    </main>
-
-    <footer>
+<footer>
   <div id="footer-content">
     <div>
-      <a href="#"><img src="images/footer-logo.png" alt="" /></a>
+      <a href="index.html"><img src="images/footer-logo.png" alt="Logo CtrlClean footer" /></a>
       <p>Nettoyage & optimisation PC à distance.</p>
     </div>
-
     <div>
       <h4>Liens utiles</h4>
       <ul>
         <li><a href="index.html">Accueil</a></li>
         <li><a href="services.html">Services</a></li>
-        
       </ul>
     </div>
-
     <div>
       <h4>Contact</h4>
       <p>Email : contact@ctrlclean.fr</p>
     </div>
   </div>
-
-  <p id="copyright">© 2026 Ctrl+Clean - Tous droits réservés</p>
+  <p>© 2026 Ctrl+Clean - Tous droits réservés</p>
 </footer>
-  </body>
+
+</body>
 </html>
