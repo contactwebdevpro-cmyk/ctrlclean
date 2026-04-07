@@ -1,18 +1,96 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ctrl+Clean</title>
+
+    <!-- SEO primaire -->
+    <title>Nos Services de Nettoyage PC à Distance | Ctrl+Clean</title>
+    <meta name="description" content="Découvrez tous les services Ctrl+Clean : nettoyage complet Windows, suppression virus et malware, boost de performances, sauvegarde et récupération de données. À distance, en 15–30 min, pour 5€." />
+    <meta name="keywords" content="nettoyage PC Windows, suppression virus, suppression malware, boost PC, optimisation démarrage, sauvegarde données, récupération fichiers, dépannage PC distance" />
+    <meta name="author" content="Ctrl+Clean" />
+    <link rel="canonical" href="https://www.ctrlclean.fr/services.html" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Nos Services de Nettoyage PC à Distance | Ctrl+Clean" />
+    <meta property="og:description" content="Nettoyage, antivirus, boost de performance et récupération de données — tout à distance pour seulement 5€." />
+    <meta property="og:url" content="https://www.ctrlclean.fr/services.html" />
+    <meta property="og:image" content="https://www.ctrlclean.fr/images/og-image.png" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Ctrl+Clean" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nos Services de Nettoyage PC à Distance | Ctrl+Clean" />
+    <meta name="twitter:description" content="Nettoyage, antivirus, boost de performance et récupération de données — tout à distance pour seulement 5€." />
+    <meta name="twitter:image" content="https://www.ctrlclean.fr/images/og-image.png" />
+
+    <!-- Données structurées JSON-LD (liste de services) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Services Ctrl+Clean",
+      "url": "https://www.ctrlclean.fr/services.html",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Service",
+            "name": "Nettoyage complet PC",
+            "description": "Suppression des fichiers inutiles, optimisation Windows, gain de performance.",
+            "provider": { "@type": "LocalBusiness", "name": "Ctrl+Clean" },
+            "offers": { "@type": "Offer", "price": "5.00", "priceCurrency": "EUR" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Service",
+            "name": "Sécurité & Antivirus",
+            "description": "Scan et suppression de virus, suppression de malware, protection renforcée.",
+            "provider": { "@type": "LocalBusiness", "name": "Ctrl+Clean" },
+            "offers": { "@type": "Offer", "price": "5.00", "priceCurrency": "EUR" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Service",
+            "name": "Boost de performance PC",
+            "description": "Optimisation du démarrage, libération de RAM, PC plus rapide.",
+            "provider": { "@type": "LocalBusiness", "name": "Ctrl+Clean" },
+            "offers": { "@type": "Offer", "price": "5.00", "priceCurrency": "EUR" }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Service",
+            "name": "Sauvegarde & Récupération de données",
+            "description": "Backup de fichiers, récupération de données perdues, stockage cloud sécurisé.",
+            "provider": { "@type": "LocalBusiness", "name": "Ctrl+Clean" },
+            "offers": { "@type": "Offer", "price": "5.00", "priceCurrency": "EUR" }
+          }
+        }
+      ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-   <header>
+    <header>
       <nav>
-        <a href="#"><img src="images/logo.png" alt="" /></a>
+        <a href="/" aria-label="Ctrl+Clean - Accueil"><img src="images/logo.png" alt="Logo Ctrl+Clean" width="140" height="40" /></a>
         <ul>
           <li><a href="index.html">Accueil</a></li>
-          <li><a href="services.html">Services</a></li>
+          <li><a href="services.html" aria-current="page">Services</a></li>
           <li><a id="Demander-devis-nav" href="devis.html">Demander Devis</a></li>
         </ul>
       </nav>
@@ -21,97 +99,81 @@
     <main>
       <div id="flex-menu">
         <div id="texte-menu">
-          <h1>
-            Nos services <br> de nettoyage digitale
-          </h1>
-          <div id="p-s" >
-          <p>Optimisez votre PC et boostez ses performances !</p>
-</div>
-          
-
-          <div id="bouttons-flex" >
-          <div id="bouttons">
-            <a href="devis.html">Demandez un devis <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
-  <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
-</svg></a>
+          <h1>Nos services<br>de nettoyage digital</h1>
+          <div id="p-s">
+            <p>Optimisez votre PC et boostez ses performances grâce à un dépannage à distance rapide et sécurisé.</p>
+          </div>
+          <div id="bouttons-flex">
+            <div id="bouttons">
+              <a href="devis.html">Demandez un devis
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16" aria-hidden="true">
+                  <path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/>
+                </svg>
+              </a>
             </div>
-           
           </div>
         </div>
         <div id="image-pc">
-          <img src="images/service-image.png" alt="" />
+          <img src="images/service-image.png" alt="Interface de dépannage PC à distance Ctrl+Clean" width="500" height="400" loading="lazy" />
         </div>
       </div>
 
-
-   <div id="cartes-s">
-
-  <div class="carte">
-    <h2>✔ Nettoyage complet</h2>
-    <ul>
-      <li>Suppression fichiers inutiles</li>
-      <li>Optimisation Windows</li>
-      <li>Gain de performance</li>
-    </ul>
-  </div>
-
-  <div class="carte">
-    <h2>✔ Sécurité & antivirus</h2>
-    <ul>
-      <li>Scan & suppression virus</li>
-      <li>Suppression malware</li>
-      <li>Protection renforcée</li>
-    </ul>
-  </div>
-
-  <div class="carte">
-    <h2>✔ Boost performance</h2>
-    <ul>
-      <li>Startup optimisé</li>
-      <li>RAM libérée</li>
-      <li>PC plus rapide</li>
-    </ul>
-  </div>
-
-  <div class="carte">
-    <h2>✔ Sauvegarde & récupération</h2>
-    <ul>
-      <li>Backup fichiers</li>
-      <li>Récupération données</li>
-      <li>Cloud sécurisé</li>
-    </ul>
-  </div>
-
-</div>
-
-
-
-
+      <!-- Cartes services -->
+      <section id="cartes-s" aria-label="Liste de nos services de nettoyage PC">
+        <article class="carte">
+          <h2>✔ Nettoyage complet</h2>
+          <ul>
+            <li>Suppression des fichiers inutiles</li>
+            <li>Optimisation Windows</li>
+            <li>Gain de performance immédiat</li>
+          </ul>
+        </article>
+        <article class="carte">
+          <h2>✔ Sécurité &amp; Antivirus</h2>
+          <ul>
+            <li>Scan &amp; suppression de virus</li>
+            <li>Suppression de malware</li>
+            <li>Protection renforcée</li>
+          </ul>
+        </article>
+        <article class="carte">
+          <h2>✔ Boost de performance</h2>
+          <ul>
+            <li>Démarrage Windows optimisé</li>
+            <li>RAM libérée</li>
+            <li>PC plus rapide</li>
+          </ul>
+        </article>
+        <article class="carte">
+          <h2>✔ Sauvegarde &amp; Récupération</h2>
+          <ul>
+            <li>Backup de vos fichiers</li>
+            <li>Récupération de données</li>
+            <li>Cloud sécurisé</li>
+          </ul>
+        </article>
+      </section>
     </main>
 
     <footer>
-  <div id="footer-content">
-    <div>
-      <a href="#"><img src="images/footer-logo.png" alt="" /></a>
-      <p>Nettoyage & optimisation PC à distance.</p>
-    </div>
-
-    <div>
-      <h4>Liens utiles</h4>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="services.html">Services</a></li>
-        
-      </ul>
-    </div>
-
-    <div>
-      <h4>Contact</h4>
-      <p>Email : contact@ctrlclean.fr</p>
-    </div>
-  </div>
-
-  <p id="copyright">© 2026 Ctrl+Clean - Tous droits réservés</p>
-</footer>
+      <div id="footer-content">
+        <div>
+          <a href="/"><img src="images/footer-logo.png" alt="Ctrl+Clean logo" width="120" height="36" loading="lazy" /></a>
+          <p>Nettoyage &amp; optimisation PC à distance.</p>
+        </div>
+        <div>
+          <h4>Liens utiles</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p>Email : <a href="mailto:contact@ctrlclean.fr">contact@ctrlclean.fr</a></p>
+        </div>
+      </div>
+      <p id="copyright">© 2026 Ctrl+Clean — Tous droits réservés</p>
+    </footer>
   </body>
 </html>
