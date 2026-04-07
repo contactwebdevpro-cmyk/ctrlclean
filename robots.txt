@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ctrlclean.vercel.app/sitemap.xml
