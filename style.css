@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+   
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-top:30px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+
+
+nav img{
+    width: 300px;
+    position: absolute;
+    top: -50px;
+    left: 5%;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav ul li:first-child a{
+    color: rgb(41, 153, 7);
+    text-decoration: none;
+}
+
+#Demander-devis-nav{
+   position: absolute;
+   top: -5px;
+   right: 5%;
+   background-color: #35c35c;
+   border-radius: 10px;
+   padding: 10px;
+   
+}
+
+#Demander-devis-nav{
+    transition: 0.3s;
+}
+
+#Demander-devis-nav:hover{
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: solid 1px #35c35c;
+    
+}
+
+#flex-menu {
+    display: flex;
+    justify-content: center; /* centre l'ensemble du bloc horizontalement */
+    align-items: center;     /* centre verticalement */
+    gap: 50px;               /* espace entre texte et image */
+    flex-wrap: wrap;          /* permet de passer en colonne sur petits écrans */
+}
+
+#image-pc img{
+    width: 1000px;
+}
+
+
+#texte-menu h1{
+color: white;
+font-size: 50px;
+padding: 0;
+margin: 0;
+}
+
+#texte-menu h2{
+font-size: 50px;
+padding: 0;
+margin: 0;
+}
+
+
+#texte-menu p{
+    color: white;
+    text-wrap: nowrap;
+    font-size: 18px;
+     margin: 0;
+    padding: 0 0 10px 0;
+}
+
+.texte-vert{
+    color: #35c35c;
+}
+
+#texte-menu svg{
+    color: #35c35c;
+}
+
+#texte-menu {
+    margin: 0 auto;       
+    width: 80%;             
+    max-width: 600px;       
+    text-align: left;      
+}
+
+
+#bouttons a{
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #23813c;
+    border-radius: 20px;
+   
+     
+}
+
+#bouttons a:hover{
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #35c35c;
+    border-radius: 20px;
+     
+}
+
+
+#bouttons svg{
+    color: white;
+}
+
+#voir a{
+
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: transparent;
+   
+    color: rgb(197, 197, 197);
+    border: 1px solid #35c35c;
+    border-radius: 20px;
+}
+
+#voir a:hover{
+      color: white;
+     border: 1px solid #35c35c;
+}
+
+#bouttons-flex{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+#p-s{
+    padding-top: 30px;
+}
+
+#icons{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+
+#cartes{
+    display: flex;
+    border: 1px #35c35c solid;
+    border-radius: 20px;
+    justify-content: center;
+    gap: 175px;
+    padding: 10px;
+    margin: 100px 100px;
+    text-align: center;
+}
+#cartes h2{
+    font-size: 25px;
+    color: white;
+    
+}
+
+#cartes h2::after{
+    content: "";
+    border:#35c35c solid;
+    border-width: 15px 1px;
+    position: relative;
+    left: 43%;
+    top: 25px;
+}
+
+#cartes div:last-child h2:after{
+    border: none;
+}
+
+#cartes p{
+    color: white;
+    
+    
+}
+#cartes svg{
+    color: #35c35c;
+    
+}
+
+#fiable h2{
+    color: white;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+
+#fiable{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#cartes2{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+     margin: 50px;
+     
+    
+}
+
+#cartes2 svg{
+    color: #35c35c;
+}
+
+#cartes2 h3{
+    color: white;
+}
+
+#cartes2 p{
+    color: white;
+}
+
+.cartec{
+    border: white 1px solid;
+    border-radius: 20px;
+    padding:20px;
+}
+
+#p100{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#cta-final{
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#cta-final h2{
+    color: white;
+    font-size: 40px;
+}
+
+#cta-final p{
+    color: white;
+    margin: 20px 0;
+}
+
+#cta-final a{
+    background-color: #35c35c;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#cta-final{
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#cta-final h2{
+    color: white;
+    font-size: 40px;
+}
+
+#cta-final p{
+    color: white;
+    margin: 20px 0;
+}
+
+#cta-final a{
+    background-color: #35c35c;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+footer{
+    border-top: 1px solid #35c35c;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+#footer-content{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+#footer-content a img{
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+#copyright{
+    text-align: center;
+    margin-top: 30px;
+    color: grey;
+}
+
+#cartes-s {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 50px 100px;
+}
+
+/* Carte */
+.carte {
+    border-radius: 20px;
+    padding: 25px;
+    border: 1px solid rgba(0, 255, 150, 0.2);
+    box-shadow: 0 0 20px rgba(0, 255, 150, 0.1);
+    transition: 0.3s;
+}
+
+/* Hover léger */
+.carte:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 30px rgba(0, 255, 150, 0.3);
+}
+
+/* Titre */
+.carte h2 {
+    color: #00ff9c;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+/* Liste */
+.carte ul {
+    list-style: none;
+    padding: 0;
+}
+
+.carte ul li {
+    color: #cbd5e1;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 20px;
+}
+
+/* Check vert */
+.carte ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #00ff9c;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    #flex-menu {
+        flex-direction: column; /* empile texte et image verticalement */
+    }
+
+    #image-pc img {
+        width: 70%;             /* réduit la taille sur mobile */
+        margin: 20px 0;         /* espace autour */
+    }
+
+    #texte-menu {
+        width: 90%;             /* texte prend plus de place */
+        text-align: center;     /* centre le texte sur petit écran */
+    }
+}
+
+#formulaire-devis {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+#devisForm {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #35c35c;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+button {
+    background-color: #35c35c;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #23813c;
+}
